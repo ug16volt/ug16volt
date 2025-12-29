@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG16volt - Trending News & Entertainment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>UG16volt</h1>
+                <span class="tagline">Trending News & Entertainment</span>
+            </div>
+            <nav class="nav">
+                <a href="#latest" class="nav-link active">Home</a>
+                <a href="#sports" class="nav-link">Sports</a>
+                <a href="#entertainment" class="nav-link">Entertainment</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-overlay">
+            <h2 class="hero-title">Top Trending Stories</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=600&fit=crop" alt="Trending 1">
+                        <div class="slide-content">
+                            <p class="slide-title">Breaking: Global Markets React to Fed Decision</p>
+                            <span class="slide-time">2 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1559776452-8d93d4a5eacc?w=1200&h=600&fit=crop" alt="Trending 2">
+                        <div class="slide-content">
+                            <p class="slide-title">Champions League: Epic Comeback Shocks Europe</p>
+                            <span class="slide-time">4 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1614700877622-406eb3a8d8e0?w=1200&h=600&fit=crop" alt="Trending 3">
+                        <div class="slide-content">
+                            <p class="slide-title">Hollywood's Next Big Blockbuster Revealed</p>
+                            <span class="slide-time">6 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="main-container">
+        <main class="content">
+            <section id="latest" class="section">
+                <h3 class="section-title">Latest Articles</h3>
+                <div class="articles-grid" id="latest-articles">
+                    <!-- Dynamic content -->
+                </div>
+            </section>
+            <div class="ad-space">🚀 Premium Ad Space - 300x250</div>
+
+            <section id="sports" class="section">
+                <h3 class="section-title">Sports</h3>
+                <div class="articles-grid" id="sports-articles">
+                    <!-- Dynamic content -->
+                </div>
+            </section>
+            <div class="ad-space">⚽ Sports Betting Partner</div>
+
+            <section id="entertainment" class="section">
+                <h3 class="section-title">Entertainment</h3>
+                <div class="articles-grid" id="entertainment-articles">
+                    <!-- Dynamic content -->
+                </div>
+            </section>
+            <div class="ad-space">🎬 Movie Streaming Partner</div>
+
+            <section id="contact" class="section">
+                <h3 class="section-title">Contact Us</h3>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> info@ug16volt.com</p>
+                    <p><strong>Follow us:</strong> Twitter | Instagram | YouTube</p>
+                    <form class="contact-form">
+                        <input type="email" id="contactEmail" placeholder="Your email" required>
+                        <textarea id="contactMessage" placeholder="Your message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h4>Popular Posts</h4>
+                <ul class="popular-list">
+                    <li><a href="#">Global Market Crash<span>· 45k views</span></a></li>
+                    <li><a href="#">AI Revolution Begins<span>· 32k views</span></a></li>
+                    <li><a href="#">Crypto Hits New Highs<span>· 28k views</span></a></li>
+                </ul>
+            </div>
+            <div class="sidebar-trending">
+                <h4>Trending Now</h4>
+                <div class="trending-item">
+                    <span class="trend-rank">#1</span>
+                    <span>Tech Revolution</span>
+                </div>
+                <div class="trending-item">
+                    <span class="trend-rank">#2</span>
+                    <span>Sports Drama</span>
+                </div>
+            </div>
+            <div class="ad-space sidebar-ad">Sidebar Ad 300x600</div>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 UG16volt. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
