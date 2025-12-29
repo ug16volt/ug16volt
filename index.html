@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UG16volt - Trending News & Entertainment</title>
+    <title>UG16volt - Breaking News, Sports & Entertainment | Live Updates</title>
+    <meta name="description" content="Latest breaking news, sports scores, entertainment updates. Real-time trending stories from around the world.">
+    <meta name="keywords" content="news, breaking news, sports, entertainment, trending, live updates">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="UG16volt - Breaking News & Entertainment">
+    <meta property="og:description" content="Latest news, sports, and entertainment updates.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200">
+    <meta property="og:url" content="https://ug16volt.github.io/ug16volt">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
     <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TEST123456"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
+  gtag('config', 'G-TEST123456');
 </script>
 <body>
     <header class="header">
@@ -141,4 +153,12 @@
 
     <script src="script.js"></script>
 </body>
+    <!-- Preload Critical Resources -->
+<link rel="preload" href="style.css" as="style">
+<link rel="preload" href="script.js" as="script">
+<link rel="dns-prefetch" href="https://images.unsplash.com">
+
+<!-- PWA Manifest (Add to ROOT as `manifest.json`) -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#00d4ff">
 </html>
